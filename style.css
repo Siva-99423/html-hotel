@@ -86,17 +86,17 @@ nav svg{
         box-sizing: border-box;
         height: auto;
         width: 100%;
-        padding: 20px 35px;
+        padding: 20px 30px;
         justify-content: flex-start;
     }
     .open-sidebar-button,.close-sidebar-button{
-        padding-inline: 30px;
+        padding-inline: 20px;
         display: block;
     }
     #sidebar-active:checked ~ .links-container{
         right:0;
     }
-    #sidebar-active:checked~#overlay{
+    #sidebar-active:checked~ #overlay{
         background-color:white;
         height: 100%;
         width: 100%;
