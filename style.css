@@ -68,7 +68,7 @@ nav svg{
 
 
 
-@media(max-width:400px){
+@media(min-width:400px) and (max-width:460px){
     .links-container{
         flex-direction: column;
         justify-content:center;
@@ -90,7 +90,7 @@ nav svg{
         justify-content: flex-start;
     }
     .open-sidebar-button,.close-sidebar-button{
-        padding-inline: 40px;
+        padding-inline: 30px;
         display: block;
     }
     #sidebar-active:checked ~ .links-container{
