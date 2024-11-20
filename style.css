@@ -71,6 +71,7 @@ nav svg{
 @media(max-width:400px){
     .links-container{
         flex-direction: column;
+        justify-content:center;
         align-items:flex-start;
         position:fixed;
         top: 0;
@@ -89,19 +90,10 @@ nav svg{
         justify-content: flex-start;
     }
     .open-sidebar-button,.close-sidebar-button{
-        padding-inline: 20px;
+        padding-inline: 40px;
         display: block;
     }
     #sidebar-active:checked ~ .links-container{
         right:0;
     }
-    /*#sidebar-active:checked~#overlay{
-        height: 100%;
-        width: 100%;
-        position:fixed;
-        top: 0;
-        left: 0;
-        z-index: 11;
-
-    }*/
 }
