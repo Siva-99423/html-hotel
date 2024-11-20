@@ -68,7 +68,7 @@ nav svg{
 
 
 
-@media(min-width:400px) and (max-width:460px){
+@media(max-width:400px) and (min-width:460px){
     .links-container{
         flex-direction: column;
         justify-content:center;
