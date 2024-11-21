@@ -101,13 +101,16 @@ nav svg{
     }
     .close-sidebar-button{
         display: block;
-        margin-left: 340px;
+        padding-inline:20px
+        margin-left: 280px;
+    }
+    nav a.nonhov{
+        display:none;
     }
     #sidebar-active:checked ~ .links-container{
         right:0;
     }
     #sidebar-active:checked~ #overlay{
-        background-color:white;
         height: 100%;
         width: 100%;
         position:fixed;
